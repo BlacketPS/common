@@ -1,20 +1,21 @@
 {
-    "name": "@blacket/common",
-    "version": "0.0.6",
-    "description": "",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "files": [
-        "/dist"
-    ],
-    "scripts": {
-        "build": "tsc",
-        "build:declaration": "tsc --declaration --emitDeclarationOnly"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "typescript": "^5.5.4"
-    }
+  "name": "@blacket/common",
+  "version": "0.0.6",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build:declaration": "tsc --declaration --emitDeclarationOnly"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.65",
+    "typescript": "^5.5.4"
+  }
 }
